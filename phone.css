@@ -1,0 +1,124 @@
+body {
+    height: 93vh;
+    width: 100%;
+}
+
+
+.balance-section {
+    width: 350px;
+    padding: 2.1rem 1.2rem 2.1rem 2.2rem;
+}
+
+
+.logo img {
+    width: 80%;
+    margin-right: 0;
+}
+
+
+.p-primary {
+    font-size: 1.5rem;
+}
+
+.p-2nd {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+.h-secondary {
+    font-size: 2.5rem;
+}
+
+.spend-section {
+    width: 350px;
+    padding: 2.5rem 2rem 0.5rem;
+    margin-top: 1.5rem;
+}
+
+
+
+.spend-section h2 {
+    font-size: 2.45rem;
+}
+
+.graph {
+    margin-top: 1rem;
+    padding-bottom: 2.5rem;
+}
+
+
+.graph-col {
+    width: 35px;
+}
+
+
+#graph-col1 {
+    height: 50px;
+}
+
+#graph-col2 {
+    height: 100px;
+}
+
+#graph-col3 {
+    height: 150px;
+    background-color: var(--Cyan);
+}
+
+#graph-col4 {
+    height: 90px;
+}
+
+#graph-col5 {
+    height: 65px;
+}
+
+
+#graph-col6 {
+    height: 125px;
+}
+
+#graph-col7 {
+    height: 70px;
+}
+
+.bottom-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 0 1.5rem;
+}
+
+
+.p-3rd {
+    padding: 0.5rem 0;
+    font-size: 1.6rem;
+    color: var(--Medium-brown);
+}
+
+.spend-balance {
+    font-size: 3.2rem;
+    color: var(--Dark-brown);
+}
+
+.right-part {
+    margin-top: 2.2rem;
+}
+
+.percent {
+    text-align: end;
+    color: var(--Dark-brown);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+
+.graph-data {
+    height: 22px;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1.5rem 0.5rem;
+    margin-bottom: 0.8rem;
+    border-radius: 5px;
+}

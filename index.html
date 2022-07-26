@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="phone.css" media="screen and (max-width:540px)">
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+
+<body>
+
+  <div class="container" role="main">
+    <!-- BALANCE SECTION  -->
+    <div class="balance-section">
+      <div class="my-balance">
+        <p class="p-primary">
+          My balance
+        </p>
+        <h1 class="h-secondary">
+          $921.48
+        </h1>
+      </div>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="">
+      </div>
+
+    </div>
+
+    <!-- SPEND SECTION  -->
+
+    <div class="spend-section">
+
+      <h2>
+        Spending - Last 7 days
+      </h2>
+
+      <!-- GRAPH  -->
+
+      <div class="graph">
+        <div class="graph1">
+          <div class="graph-data">$17.45</div>
+          <div class="graph-col" id="graph-col1"></div>
+          <p class="p-2nd"> mon</p>
+        </div>
+        <div class="graph1">
+          <div class="graph-data">$34.91</div>
+          <div class="graph-col" id="graph-col2"></div>
+          <p class="p-2nd">tue</p>
+        </div>
+        <div class="graph1">
+          <div class="graph-data">$52.36</div>
+          <div class="graph-col" id="graph-col3"></div>
+          <p class="p-2nd">wed</p>
+        </div>
+        <div class="graph1">
+          <div class="graph-data">$31.07</div>
+          <div class="graph-col" id="graph-col4"></div>
+          <p class="p-2nd">thu</p>
+        </div>
+        <div class="graph1">
+          <div class="graph-data">$23.39</div>
+          <div class="graph-col" id="graph-col5"></div>
+          <p class="p-2nd">fri</p>
+        </div>
+        <div class="graph1">
+          <div class="graph-data">$43.28</div>
+          <div class="graph-col" id="graph-col6"></div>
+          <p class="p-2nd">sat</p>
+        </div>
+        <div class="graph1">
+          <div class="graph-data">$25.48</div>
+          <div class="graph-col" id="graph-col7"></div>
+          <p class="p-2nd">sun</p>
+        </div>
+
+
+      </div>
+
+      <!-- BOTTOM PART  -->
+
+      <div class="bottom-part">
+
+
+        <div class="left-part">
+          <p class="p-3rd">
+            Total this month
+          </p>
+          <h1 class="spend-balance">
+            $478.33
+          </h1>
+        </div>
+        <div class="right-part">
+          <p class="percent">
+            +2.4%
+          </p>
+          <p class="p-3rd">
+            from last month
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">MD KAIF ANSARI</a>.
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
